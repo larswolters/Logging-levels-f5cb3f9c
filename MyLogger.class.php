@@ -7,16 +7,16 @@ class MyLogger
         switch ($level) {
             case 'warning':
                 $this->warning($message);
-            break;
+                break;
             case 'error':
                 $this->error($message);
-            break;
+                break;
             case 'info':
                 $this->info($message);
-            break;
+                break;
             case 'debug':
                 $this->debug($message);
-            break;
+                break;
         }
     }
 
